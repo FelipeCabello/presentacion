@@ -11,11 +11,10 @@
 
 #### Típica Sesión HTTP
 
-<span class="aside">En los protocolos basados en el modelo cliente-servidor, como es el caso del HTTP, una sesión consta de tres fases:</span>
-<span class="aside">El cliente establece una conexión TCP (o la conexión correspondiente si la capa de transporte corresponde a otro protocolo).</span>
-<span class="aside">El cliente manda su petición, y espera por la respuesta.</span>
-<span class="aside">El servidor procesa la petición, y responde con un código de estado y los datos correspondientes.</span>
-
+<span class="aside">En los protocolos basados en el modelo cliente-servidor, como es el caso del HTTP, una sesión consta de tres fases:</span><br>
+<span class="aside">1. El cliente establece una conexión TCP (o la conexión correspondiente si la capa de transporte corresponde a otro protocolo).</span><br>
+<span class="aside">2. El cliente manda su petición, y espera por la respuesta. </span><br>
+<span class="aside">3. El servidor procesa la petición, y responde con un código de estado y los datos correspondientes.</span><br>
 ---
 
 #### No more <span class="gray">Keynote</span>.
