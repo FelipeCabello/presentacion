@@ -6,7 +6,6 @@
   HTTP, de sus siglas en inglés: "Hypertext Transfer Protocol", es el nombre de un protocolo el cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML. Es la base de cualquier intercambio de datos en la Web, y un protocolo de estructura cliente-servidor, esto quiere decir que una petición de datos es iniciada, por el elemento que recibirá los datos (el cliente), normalmente un navegador Web.
 </span>
 
-
 ---
 
 @title[PITCHME.md]
@@ -30,7 +29,7 @@
 
 ---
 
-@title[Step 1. PITCHME.md]
+@title[Step 1. Cabecera]
 
 #### Cabeceras protocolo HTTP
 
@@ -63,64 +62,42 @@
 
 ---
 
-@title[Step 2. Git-Commit]
+@title[Step 2. Cookies]
 
-### <span class="gold">STEP 2. GIT-COMMIT</span>
-<br>
+#### Cookies
 
-```shell
-$ git add PITCHME.md
-$ git commit -m "New slideshow content."
-$ git push
-
-Done!
-```
-
-@[1](Add your PITCHME.md slideshow content file.)
-@[2](Commit PITCHME.md to your local repo.)
-@[3](Push PITCHME.md to your public repo and you're done!)
-@[5](Supports GitHub, GitLab, Bitbucket, GitBucket, Gitea, and Gogs.)
+<span class="aside">
+  Una cookie HTTP, cookie web o cookie de navegador es una pequeña pieza de datos que un servidor envía a el navegador web del usuario. El navegador guarda estos datos y los envía de regreso junto con la nueva petición al mismo servidor. Las cookies se usan generalmente para decirle al servidor que dos peticiones tiene su origen en el mismo navegador web lo que permite.
+</span>
 
 ---
 
-@title[Step 3. Done!]
+@title[Step 3. Evolucion]
 
-### <span class="gold">STEP 3. GET THE WORD OUT!</span>
-<br>
-![GitPitch Slideshow URLs](assets/images/gp-slideshow-urls.png)
-<br>
-<br>
-#### Instantly use your GitPitch slideshow URL to promote, pitch or present absolutely anything.
+#### Evolución de HTTP
 
----
-
-@title[Slide Rich]
-
-### <span class="gold">Slide Rich</span>
-
-#### Code Presenting for Blocks, Files, and GISTs
-#### Image, Video, Chart, and Math Slides
-#### Multiple Themes with Easy Customization
-<br>
-#### <span class="gold">Plus collaboration is built-in...</span>
-#### Your Slideshow is Part of Your Project
-#### Under Git Version Control within Your Git Repo
+<span class="aside">
+  HTTP es el protocolo en el que se basa la Web. Fue inventado por Tim Berners-Lee entre los años 1989-1991, HTTP ha visto muchos cambios, manteniendo la mayor parte de su simplicidad y desarrollando su flexibilidad. HTTP ha evolucionado, desde un protocolo destinado al intercambio de archivos en un entorno de un laboratorio semi-seguro, al actual laberinto de Internet, sirviendo ahora para el intercambio de imágenes, vídeos en alta resolución y en 3D.
+</span>
 
 ---
 
-@title[Feature Rich]
+@title[Step 4. Caracteristicas]
 
-### <span class="gold">Feature Rich</span>
+#### Características de HTTP 2.0
 
-#### Present Online or Offline
-#### With Speaker Notes Support
-#### Print Presentation as PDF
-#### Auto-Generated Table-of-Contents
-#### Share Presentation on Twitter or LinkedIn
+<span class="aside">
+  Muchos consideran a HTTP/2 el reemplazo del protocolo SPDY que desarrollo Google para mejorar el rendimiento de sus servicios en su navegador Chrome, de hecho el protocolo HTTP/2 está basado en algunas de las ideas del protocolo SPDY, el cual actualmente se considera obsoleto pues se ha apostado completamente por el protocolo HTTP/2.
+</span>
 
 ---
 
-### Go for it.
-### Just add <span class="gold">PITCHME.md</span> ;)
-<br>
-[Click here to learn more...](https://github.com/gitpitch/gitpitch/wiki)
+#### Principales ventajas
+
+<span class="aside">
+  - SERVER PUSH <br>
+  - COMPRESION DE HEADERS <br>
+  - FORMATO BINARIO EN LUGAR DE TEXTO
+</span>
+
+---
