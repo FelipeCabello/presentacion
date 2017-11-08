@@ -9,11 +9,12 @@
 
 @title[PITCHME.md]
 
-#### GitPitch turns <span class="gold">PITCHME.md</span> into
-#### interactive,
-#### online and offline slideshows.
-<br>
-<span class="aside">Just like this one...</span>
+#### Típica Sesión HTTP
+
+<span class="aside">En los protocolos basados en el modelo cliente-servidor, como es el caso del HTTP, una sesión consta de tres fases:</span>
+<span class="aside">El cliente establece una conexión TCP (o la conexión correspondiente si la capa de transporte corresponde a otro protocolo).</span>
+<span class="aside">El cliente manda su petición, y espera por la respuesta.</span>
+<span class="aside">El servidor procesa la petición, y responde con un código de estado y los datos correspondientes.</span>
 
 ---
 
